@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	background-color: #ccc;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 980px;
+	overflow: hidden;
+	background-color: white;
+	padding: 20px 10px;
+}
+
+
+
+
+#mainHeader
+{
+	/*must use diplay flex first*/
+	display: flex; 
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#navCon
+{
+	width: 680px;
+	overflow: hidden;
+	margin-right: auto;
+	/* must call whenever you use flex box*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#subNav
+{
+	width: 290px;
+	height: 40px;
+	background-color: #555434;
+	margin-top: 19px;
+	margin-bottom: 1px;
+	padding: 0px;
+}
+
+#mainNav
+{
+	width: 650px;
+	height: 45px;
+	background-color: #23550b;
+	margin-top: 15px;
+	padding: 0px;
+}
+
+#logo 
+{
+	width: 252px;
+	height: 100px;
+	background-color: #f0aeae;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 0px;
+}
+
+#hero 
+{
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#mainImage
+{
+	width: 201px;
+	height: 300px;
+	background-color: #3c4209;
+	margin-right: auto;
+}
+
+#mainImageDesc
+{
+	width: 700px;
+	height: 300px;
+	background-color: #75687a;
+	margin-bottom: 30px;
+}
+
+#wideImage
+{
+	width: 980px;
+	height: 200px;
+	background-color: #3a5445;
+	margin-bottom: 20px;
+}
+
+#promoSoc
+{
+	/*margin-left: auto*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#socialMediaCon
+{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.socialMedia
+{
+	width: 100px;
+	height: 50px;
+	background-color: #e0b1cf;
+	margin-right: 15px;
+	margin-bottom: 40px;
+}
+
+#promo
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+#promoText
+{
+	width: 330px;
+	height: 310px;
+	background-color: #251e40;
+	margin-bottom: 45px;
+}
+
+#promoImage
+{
+	width: 585px;
+	height: 400px;
+	background-color: #c7d6dc;
+	margin-bottom: 20px;
+}
+
+#mainFooter
+{
+	display: flex;
+	justify-content: center;
+	width: 1000px;
+	height: 50px;
+	background-color: #442916;
+	margin-bottom: 90px;
+}
+
