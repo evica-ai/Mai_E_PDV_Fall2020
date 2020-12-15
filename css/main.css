@@ -8,7 +8,18 @@
 body
 {
 	background-color: #ccc;
+	font-family: "Hind Madurai", sans-serif;
 }
+
+h3
+{
+	font-family: "Khand", Arial, sans-serif;	
+}
+p
+{
+	font-family: "Hind Madurai", sans-serif;
+}
+
 
 #container
 {
@@ -28,6 +39,7 @@ body
 	display: flex; 
 	flex-direction: row;
 	justify-content: flex-start;
+	font-family: "Poiret One", sans-serif;
 }
 
 #navCon
@@ -39,6 +51,8 @@ body
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	font-size: 20px;
+	font-family: "Poiret One", sans-serif;
 }
 
 #subNav
@@ -49,6 +63,7 @@ body
 	margin-top: 19px;
 	margin-bottom: 1px;
 	padding: 0px;
+	font-family: "Poiret One", sans-serif;
 }
 
 #mainNav
@@ -58,6 +73,8 @@ body
 	background-color: #23550b;
 	margin-top: 15px;
 	padding: 0px;
+	font-family: "Poiret One", Arial, sans-serif;
+	align-content: center;
 }
 
 #logo 
@@ -74,16 +91,19 @@ body
 {
 	width: 980px;
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	flex-direction: row-center;
+	justify-content: column-center;
 }
 
 #mainImage
 {
-	width: 201px;
-	height: 300px;
+	width: 200px;
+	height: 150px;
 	background-color: #3c4209;
 	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
 }
 
 #mainImageDesc
@@ -92,60 +112,68 @@ body
 	height: 300px;
 	background-color: #75687a;
 	margin-bottom: 30px;
+	padding: 20px;
 }
 
 #wideImage
 {
+	display: flex;
+	flex-direction: row-center;
+	align-items: space-between;
 	width: 980px;
 	height: 200px;
 	background-color: #3a5445;
 	margin-bottom: 20px;
 }
 
-#promoSoc
+#wideImageDesc
 {
-	/*margin-left: auto*/
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	width: 500px;
+	height: 200px;
+	font-size: 14px;
+	padding: 10px;
+	color: #ccc;
 }
 
-#socialMediaCon
+#wideImages
 {
-	display: flex;
-	flex-direction: row;
-
-}
-
-.socialMedia
-{
-	width: 100px;
-	height: 50px;
-	background-color: #e0b1cf;
-	margin-right: 15px;
-	margin-bottom: 40px;
+	width: 200px;
+	height: 200px;
 }
 
 #promo
 {
+	width: 980px;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 }
+/*/*margin-left: auto*/
+	/*display: flex;
+	flex-direction: column-center;
+	align-items: flex-start;*/
 
 #promoText
 {
-	width: 330px;
-	height: 310px;
-	background-color: #251e40;
+	display: flex;
+	width: 370px;
+	height: 400px;
 	margin-bottom: 45px;
+	padding: 10px;
+	font-family: "Poiret One", Arial, sans-serif;
+	align-content: center;
+	justify-content: space-between;
 }
 
 #promoImage
 {
-	width: 585px;
+	width: 300px;
 	height: 400px;
-	background-color: #c7d6dc;
+	background-color: #3c4209;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: space-between;
 	margin-bottom: 20px;
 }
 
@@ -154,7 +182,7 @@ body
 	display: flex;
 	justify-content: center;
 	width: 1000px;
-	height: 50px;
+	height: 30px;
 	background-color: #442916;
 	margin-bottom: 90px;
 }
